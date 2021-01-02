@@ -7,10 +7,10 @@
 Controls:
 	1.) WASD / Arrow Keys			2.) Spacebar
 		- Move Left and Right			- Jump / Continue Monologue
-	3.) Left Click					4.) Right Click
-		- Light Attack						- Heavy Attack, Block, Throw Weapon
-	5.) ESC Key						6.) E Key
-		- Skip Monologue				- Pick up Weapon / Switch between Overworld and Underworld
+	3.) Left Click				4.) Right Click
+		- Light Attack				- Heavy Attack, Block, Throw Weapon
+	5.) ESC Key				6.) E Key
+		- Skip Monologue			- Pick up Weapon / Switch between Overworld and Underworld
 	7.) Shift Key
 		- Sprint
 
@@ -18,7 +18,7 @@ Controls:
 
 Implemented Mechanics (Created by me unless specified otherwise):
 
-						------------------------- MAIN MENU -------------------------
+			------------------------- MAIN MENU -------------------------
 		1.) Cloud Spawning
 			- Locations of screen: Upper 33% of screen, Middle 33% of screen, Lower 33% of screen
 			- Will never instantiate same sprite or same location twice in a row
@@ -32,7 +32,7 @@ Implemented Mechanics (Created by me unless specified otherwise):
 		5.) Transition
 			- After clicking "Play" Button, screen fades in then out of white to hide scene change
 
-						------------------------- PLAYER -------------------------
+			------------------------- PLAYER -------------------------
 		1.) Movement
 			- Player can move left/right, and jump
 			- Player movespeed is slowed while attacking
@@ -44,7 +44,7 @@ Implemented Mechanics (Created by me unless specified otherwise):
 			- Player can pick up weapons
 			- Player can swap between Overworld and Underworld
 
-						------------------------- WEAPONS -------------------------
+			------------------------- WEAPONS -------------------------
 		1.) Abilities
 			- None: Player cannot attack without a weapon
 			- Axe: Player can light attack or heavy attack
@@ -62,7 +62,7 @@ Implemented Mechanics (Created by me unless specified otherwise):
 			- Throw: Throws current weapon, sets wielded weapon to none, and is able to be picked up again
 			- Block: Negates any damage that would be taken while blocking, can only be held for 2 seconds
 
-						------------------------- ENEMIES -------------------------
+			------------------------- ENEMIES -------------------------
 		1.) Stats
 			- All enemies have Health, Attack Damage, Movement Speed, knockback strength, and Option to enable Knockback
 		2.) Cartoon Viking
@@ -71,7 +71,7 @@ Implemented Mechanics (Created by me unless specified otherwise):
 			- Will also switch poses if hit with a ranged attack from outside detection zone
 			- When Player is in attack range, attempts to attack Player
 		
-						------------------------- CAMERAS -------------------------
+			------------------------- CAMERAS -------------------------
 		1.) Cutscenes
 			- I created a method to disable the main camera and enable a temporary camera for cutscenes
 			- A second method will disable the temporary camera and enable the main camera again
@@ -82,7 +82,7 @@ Implemented Mechanics (Created by me unless specified otherwise):
 		4.) Decision Making
 			- At some points, the user will need to make decisions by clicking 1 of 3 buttons
 
-						------------------------- ANIMATIONS -------------------------
+			------------------------- ANIMATIONS -------------------------
 		* Notes
 			- Number in brackets is total # of animations for each bulletpoint ([4] = 4 animations)
 			- No number in brackets means only 1 animation
@@ -113,13 +113,13 @@ Implemented Mechanics (Created by me unless specified otherwise):
 		11.)[*][3] Underworld to Overworld
 		12.)[*][2] Healthbar pop up / player takes damage
 
-						------------------------- VISUALS -------------------------
+			------------------------- VISUALS -------------------------
 		1.) Rain and Lava particle systems
 			- Have a script attached that will follow the player in a way that isn't noticable
 		2.) Lightning
 			- Will randomly instantiate near the player's location 
 
-						------------------------- SOUND -------------------------
+			------------------------- SOUND -------------------------
 
 Assets created by me:
 	1.) Dialogue background (Green Rectangle)
