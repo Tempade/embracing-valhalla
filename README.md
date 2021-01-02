@@ -7,10 +7,13 @@
 Controls:
 	1.) WASD / Arrow Keys			2.) Spacebar
 		- Move Left and Right			- Jump / Continue Monologue
+		
 	3.) Left Click				4.) Right Click
 		- Light Attack				- Heavy Attack, Block, Throw Weapon
+		
 	5.) ESC Key				6.) E Key
 		- Skip Monologue			- Pick up Weapon / Switch between Overworld and Underworld
+		
 	7.) Shift Key
 		- Sprint
 
@@ -89,20 +92,20 @@ Implemented Mechanics (Created by me unless specified otherwise):
 			- All character animations have an animation for facing left AND for facing right (Reason for so many animations)
 			- Asterisk next to animation means it was created by me, otherwise it was not ([*])
 		1.) Player
-			- [8] Idle no weapon / Idle with weapon (Axe,Spear,Sword)				- [8] Moving no weapon / Moving with weapon (Axe,Spear,Sword)
+			- [8] Idle no weapon / Idle with weapon (Axe,Spear,Sword)			- [8] Moving no weapon / Moving with weapon (Axe,Spear,Sword)
 			- [8] Knockback no weapon / Knockback with weapon (Axe,Spear,Sword)		- [6] Light Attack with weapon (Axe,Spear,Sword)
-			- [6] Pickup weapon (Axe,Spear,Sword)									- [2] Heavy Attack with Axe
-			- Block																	- Death
+			- [6] Pickup weapon (Axe,Spear,Sword)						- [2] Heavy Attack with Axe
+			- Block										- Death
 		2.) CartoonViking
-			- [4] Idle Pose01 / Pose02												- [4] Knockback Pose01 / Pose02
-			- [2] Transition Pose01 to Pose02										- [2] Attack
-			- [4] Death Pose01 / Pose02												- [4] Run Pose01 / Pose02
+			- [4] Idle Pose01 / Pose02			- [4] Knockback Pose01 / Pose02
+			- [2] Transition Pose01 to Pose02		- [2] Attack
+			- [4] Death Pose01 / Pose02			- [4] Run Pose01 / Pose02
 		3.) Environment
-			- Dark Torch															- Drakkar (Vking Ship)
-			- Flag																	- Grass
-			- Mountain																- Pickup (Green Torch)
-			- Tor Statue															- Odin Statue
-			- Fire																	- Explosion
+			- Dark Torch			- Drakkar (Vking Ship)
+			- Flag				- Grass
+			- Mountain			- Pickup (Green Torch)
+			- Tor Statue			- Odin Statue
+			- Fire				- Explosion
 		4.) [*][3] Main Menu to Stage_One
 		5.) [*][2] Introduction Cutscene
 		6.) [*][2] Pick Weapon Cutscene
