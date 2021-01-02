@@ -5,6 +5,7 @@
 ################################################
 
 Controls:
+
 	1.) WASD / Arrow Keys			2.) Spacebar
 		- Move Left and Right			- Jump / Continue Monologue
 		
@@ -125,62 +126,110 @@ Implemented Mechanics (Created by me unless specified otherwise):
 			------------------------- SOUND -------------------------
 
 Assets created by me:
+
 	1.) Dialogue background (Green Rectangle)
+	
 	2.) Main Menu clouds (5 different sprites)
+	
 	3.) Rain Drop Sprite
+	
 	4.) Animated Lava particle (Sprite Sheet)
 
 
 Assets not created by me:
+
 	1.) https://www.dafont.com/theme.php?cat=401	[Font]
+	
 	2.) https://hugues-laborde.itch.io/viking-environment-pack-pixel-art	[Viking environment, player, and boss sprites]
+	
 	3.) https://hugues-laborde.itch.io/cartoon-viking-character-pack	[Other Viking Sprite]
+	
 	4.) https://codemanu.itch.io/pixelart-effect-pack	[Pixelart Effects]
+	
 	5.) https://sanctumpixel.itch.io/lightning-lines-pixel-art-effect	[Lightning]
+	
 	6.) GothicVania Church Pack	[Unity Asset Store]
+	
 	7.) https://opengameart.org/content/blood-particle	[Blood Particle]
+	
 	8.) https://weeklyhow.com/how-to-make-a-health-bar-in-unity/	[Healthbar Outline]
+	
 	9.) https://elthen.itch.io/2d-pixel-art-portal-sprites [Portal Sprites]
+	
 	10.) https://www.zapsplat.com/page/2/?s=thunder&post_type=music&sound-effect-category-id [Designed thunder crack 1/2/3/4]
+	
 	11.) https://www.zapsplat.com/music/rain-exterior-street-heavy-pavement-steady/	[Rain sound effect]
+	
 	12.) https://www.zapsplat.com/music/rain-water-pour-and-drip-from-roof-into-swimming-pool/	[Other rain sound effect]
+	
 	13.) https://www.zapsplat.com/music/football-boot-single-footstep-walk-on-concrete-1/	[Underworld footstep sound effect]
+	
 	14.) https://www.zapsplat.com/music/footstep-single-shoe-on-damp-and-dirty-concrete-5/	[Overworld footstep sound effect]
+	
 	15.) https://www.zapsplat.com/music/lava-flow/	[Lava sound effect]
+	
 	16.) https://www.zapsplat.com/music/campfire-flames-burn-and-sizzle-in-wind/	[Fire sound effect]
+	
 	17.) https://elements.envato.com/creature-orc-scream-01-SP57WAP	[Enemy Scream]
+	
 	18.) https://elements.envato.com/creature-orc-die-01-6DCFY9M	[Enemy Death]
+	
 	19.) https://elements.envato.com/male-scream-8JADKCL	[Player Scream]
+	
 	20.) https://www.zapsplat.com/music/heavy-male-scream-out-of-deep-pain-4/	[Player Death]
+	
 	21.) https://www.serpentsoundstudios.com/royalty-free-music/celtic-fantasy	[All ambient music]
+	
 	22.) https://www.zapsplat.com/music/heavy-medieval-axe-or-other-weapon-swing-in-air-whoosh-4/	[Player Swing]
+	
 	23.) https://www.zapsplat.com/music/impact-heavy-object-smash-down/	[Enemy swing]
+	
 	24.) https://www.zapsplat.com/music/explosion-large-distant/	[Explosion]
+	
 	25.) https://bigsoundbank.com/detail-0477-wilhelm-scream.html	[Wilhelm Scream]
+	
 	26.) https://www.techonthenet.com/clipart/keyboard/index.php	[Keyboard keys clip art]
+	
 	27.) https://clipground.com/mouse-click-clipart.html	[Mouse clip art]
+	
 	28.) https://logomakr.com/2ufAyN	[My icon]
 
 Help from Online Websites, Videos, or Tutorials:
+
 	1.) https://www.youtube.com/watch?v=_nRzoTzeyxU	[Monologue]
+	
 	2.) https://docs.unity3d.com/ScriptReference/Vector3.Lerp.html	[Camera Move]
+	
 	3.) https://stuartspixelgames.com/2019/02/19/how-to-change-sprites-colour-or-transparency-unity-c/	[Sprite Color Change]
+	
 	4.) https://stackoverflow.com/questions/30294216/unity3d-c-sharp-vector3-as-default-parameter	[Vector3 and Quaternion with default parameter (Stage_One Script)]
+	
 	5.) https://forum.unity.com/threads/particle-system-2d-rain-effect-how-to-align-particles-with-velocity-tried-many-configurations.817881/	[Rain]
+	
 	6.) https://www.highwaynorth.com/blogs/bryan/relative-position-animation-in-unity	[Animation with relative position]
+	
 	7.) https://www.youtube.com/watch?v=uZNsc-jWk9g	[VERY ROUGHLY inspired my idea for my DecisionManager script... Emphasis on "ROUGLY inspired"]
+	
 	8.) https://gamedev.stackexchange.com/questions/92146/button-stays-highlighted-after-being-clicked-unity3d-4-6-gui [Button stays highlighted after clicking]
+	
 	9.) https://forum.unity.com/threads/character-controller-ignores-transform-position.617107/	[Teleporting with Character Controller]
+	
 	10.) https://forum.unity.com/threads/coroutines-inside-coroutines.632779/	[Wait for choice to be made inside DecisionManager script]
+	
 	11.) http://digitalnativestudios.com/textmeshpro/docs/rich-text/	[Rich text, Pickup item and Activate statue UIs]
+	
 	12.) https://dotnetcodr.com/2017/11/15/implementing-an-enumerator-for-a-custom-object-in-net-c-3/	[Using a foreach loop on a custom class, DecisionManager Script]
+	
 	13.) https://gyanendushekhar.com/2019/11/17/create-health-bar-unity-3d/	[Healthbar]
 
 Information:
+
 	1.) https://www.bookofthrees.com/monty-python-and-the-holy-grail-bridge-three-questions/	[Monty Python and The Holy Grail, inspiration for the bridge scene of game]
+	
 	2.) https://medium.com/human-nature-group/what-is-the-air-speed-velocity-of-an-unladen-swallow-4c17087bbf33	[Inspired one of the choices for one of the bridge choices]
 
 
 Trouble with this project
+
 	1.) Animations were very tricky at times
 		- In specific, getting the x position to be relative, fixed with help of #6 from above^
